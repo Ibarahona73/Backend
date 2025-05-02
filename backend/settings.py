@@ -134,7 +134,9 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #quien puede acceder a la api
-#CORS_ALLOWED_ORIGINS = []
+CORS_ALLOWED_ORIGINS = [
+    "https://backend-ny2d.onrender.com/"
+]
 
 CORS_ALLOW_ALL_ORIGINS = True
 
