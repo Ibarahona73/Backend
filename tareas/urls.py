@@ -15,7 +15,7 @@ router.register(r'tareas', TareasView, basename='tareas')
 
 #Creacion de las rutas de la api
 urlpatterns = [
-    path("api/v1/", include(router.urls)), #ruta de la api
+    path('', include(router.urls)), #ruta de la api url base
     path('admin/', admin.site.urls), #ruta del admin
     
 ]
