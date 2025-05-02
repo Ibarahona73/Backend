@@ -1,4 +1,10 @@
 django==4.2.3
 mysqlclient==2.1.1
 djangorestframework==3.14.0
-corsheaders==4.0.0
+corsheaders==4.7.0 
+
+#librerias para el proyecto
+
+#librerias para el proyecto
+
+
