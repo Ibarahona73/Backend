@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-02 16:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "API Documentation"
+msgstr "Documentación de la API"
+
+msgid "Schema"
+msgstr "Esquema"
+
+msgid "Request"
+msgstr "Solicitud"
+
+msgid "Response"
+msgstr "Respuesta"
+
+msgid "Parameters"
+msgstr "Parámetros"
+
+msgid "Body"
+msgstr "Cuerpo"
+
+msgid "Headers"
+msgstr "Encabezados"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Code"
+msgstr "Código"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Example"
+msgstr "Ejemplo"
+
+msgid "Try it out!"
+msgstr "¡Pruébalo!"
+
+msgid "Execute"
+msgstr "Ejecutar"
+
+msgid "Clear"
+msgstr "Limpiar"
+
+msgid "Response Headers"
+msgstr "Encabezados de Respuesta"
+
+msgid "Response Body"
+msgstr "Cuerpo de la Respuesta"
+
+msgid "Response Code"
+msgstr "Código de Respuesta"
+
+msgid "Response Description"
+msgstr "Descripción de la Respuesta" 
