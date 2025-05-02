@@ -1,5 +1,5 @@
 from django.urls import path, include
-from tareas import admin #importacion de las rutas de la api
+from django.contrib import admin
 from .views import TareasView #importacion de la vista de las tareas
 from rest_framework.routers import DefaultRouter #importacion del router
 
@@ -15,7 +15,7 @@ router.register(r'tareas', TareasView, basename='tareas')
 
 #Creacion de las rutas de la api
 urlpatterns = [
-    path("api/v1", include(router.urls)), #ruta de la api
+    path("api/v1/", include(router.urls)), #ruta de la api
     path('admin/', admin.site.urls), #ruta del admin
     
 ]
