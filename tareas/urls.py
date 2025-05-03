@@ -6,17 +6,24 @@ from rest_framework.routers import DefaultRouter #importacion del router
 
 
 router = DefaultRouter() #creacion del router
-router.register(r'tareas', TareasView, basename='tareas') 
+router.register(r'tareas', TareasView, basename='tareas')
 
+#router.register(r'tareas', TareasView, basename='tareas') 
 # r'tareas' es la ruta de la api
 # TareasView es la vista de las tareas
 # basename='tareas' es el nombre de la ruta
 
-
 #Creacion de las rutas de la api
+#urlpatterns = [
+#    path('', include(router.urls)), #ruta de la api url base
+#    path('admin/', admin.site.urls), #ruta del admin
+#    path('api/tareas/', TareasView.as_view()),
+
 urlpatterns = [
-    path('', include(router.urls)), #ruta de la api url base
-    path('admin/', admin.site.urls), #ruta del admin
     
+    path('', include(router.urls)),  # Incluye todas las rutas del router
+    path('admin/', admin.site.urls),
+    path('tareas/', include(router.urls)),
 ]
+
 
