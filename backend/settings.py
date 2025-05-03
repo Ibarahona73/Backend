@@ -136,11 +136,14 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #quien puede acceder a la api
 CORS_ALLOWED_ORIGINS = [
-    "https://backend-ny2d.onrender.com"
+    "https://backend-ny2d.onrender.com",
+    "https://comforting-rolypoly-9bb62e.netlify.app"
     
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+
 
 REST_FRAMEWORK = {
 
